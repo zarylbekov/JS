@@ -1,0 +1,26 @@
+.counter{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;  
+}
+.count{
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.decrease{
+    border-radius: 20px;
+}
+.reset{
+    border-radius: 20px;
+}
+.increase{
+    border-radius: 20px;
+}
+.decrease:hover{background: red;}
+.reset:hover{background: darkgray;}
+.increase:hover{background: rgb(53,167,110);}
